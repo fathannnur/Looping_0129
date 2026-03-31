@@ -21,7 +21,9 @@ int main(){
     
     while(x<=5){
         cout<<"Bilangan acak = "<<x <<endl;
-        x rand()%10;
+        x = rand()%10;
     }
 
+    cout<<"Bilangan acak while yang terakhir ="<<x <<endl;
+    cout<<endl;
 }
