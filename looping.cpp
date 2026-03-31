@@ -2,7 +2,7 @@
 #include <ctime>
 using namespace std;
 
-int main(){
+int main (){
     int x;
 
     //Perulangan dengan FOR
@@ -59,7 +59,7 @@ int main (){
     else
         status = "Tidak lulus";
     
-        cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
+    cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
 
 }
 
@@ -67,3 +67,21 @@ logical_or
 #include <iostream>
 using namespace std;
 
+int main (){
+    float nilB,nilM,rerata;
+    string status;
+
+    cout<<"Masukkan nilai Matematika = ";
+    cin>>nilM;
+    cout<<"Masukkan nilai Bahasa Inggris = ";
+    cin>>nilB;
+
+    rerata = (nilB+nilM)/2;
+
+    if ((rerata < 60) || (nilM >= 70))
+        status = "Lulus";
+    else
+        status = "Tidak lulus";
+    
+    cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
+}
