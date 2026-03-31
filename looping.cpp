@@ -39,7 +39,7 @@ int main(){
     cout<<endl;
 }
 
- Logika not
+logical_not
 #include <iostream>
 using namespace std;
 
@@ -62,3 +62,8 @@ int main (){
         cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
 
 }
+
+logical_or
+#include <iostream>
+using namespace std;
+
